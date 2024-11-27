@@ -1,0 +1,472 @@
+/*https://fonts.google.com/selection/embed*/
+
+*{
+    margin : 0;
+    padding : 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+main{
+    background-color: rgb(63, 63, 63);
+    /*background-image: url("./Images/Kamigawa/Kamigawa_Vertical_Wallpaper.webp");*/
+}
+
+.fuente {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    height: 5vh;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7% 4% 0.5% 4%;
+    z-index: 99;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    width: 50%;
+    list-style: none;
+    font-size: 2.2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.volver_inicio{
+    max-height: 5vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 122, 14);
+}
+
+.naranja{
+    color: white;
+    /*background-color: rgb(255, 122, 14, 30%);*/
+    background: linear-gradient(to left,rgba(37, 37, 37, 0),rgb(255, 122, 14, 0.6));
+    padding: 0 0 0 5%;
+    font-weight: 1000;
+}
+
+#inicio .portada{
+    background-image: url("./Images/Theros/Theros_Constellations.jpg");
+}
+
+#theros .portada{
+    background-image: url("./Images/Theros/Theros_WallpaperPrincipal.jpg");
+}
+
+#bloomburrow .portada{
+    background-image: url("./Images/Bloomburrow/Bloomburrow_Wallpaper_Principal.webp");
+}
+
+#ravnica .portada{
+    background-image: url("./Images/Ravnica/Ravnica_Wallpaper_Principal.jpg");
+}
+
+#eldraine .portada{
+    background-image: url("./Images/Eldraine/Eldraine_Wallpaper_Principal.jpg");
+}
+
+#kamigawa .portada{
+    background-image: url("./Images/Kamigawa/Kamigawa_Wallpaper_Principal1.webp");
+}
+
+#phyrexia .portada{
+    background-image: url("./Images/Phyrexia/Phyrexia_Wallpaper_Principal.jpg");
+}
+
+.portada{
+    background-size: cover;
+    background-position: center center;
+    height: 93.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 300%;
+}
+
+.logo{
+    width: 40vw;
+}
+
+#planos{
+    padding:2% 5%;
+}
+
+#planos article{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#planos>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#planos article{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+    border-radius: 30px;
+    margin: 1% 0 0 0;
+}
+
+.logo_expansion{
+    width: 90%;
+}
+
+#plano_theros{
+    background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
+    background-position: center top;
+    width: 100%;
+    height: 67vh;
+}
+
+#planos>div>a{
+    width: 30%;
+    padding: 1% 0;
+}
+
+#planos article>div{
+    text-align: center;
+    padding: 0 0 2% 0;
+}
+
+.encabezado_logo_expansion{
+    background-color: rgba(37, 37, 37, 0.479);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
+}
+
+.nombre_texto_izquierda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.nombre_texto_izquierda *{
+    width: 45%;
+    padding: 1% 1% 1% 5%;
+}
+
+.nombre_texto_derecha{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.nombre_texto_derecha *{
+    width: 45%;
+    padding: 1% 5% 1% 1%;
+}
+
+.simbolos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0.8%;
+    margin: 0 2%;
+    width: 8%;
+    background: linear-gradient(to top,rgb(37, 37, 37, 0.8)20%,rgba(37, 37, 37, 0.1)80%);
+}
+
+.simbolo_encendido{
+    width: 100%;
+}
+
+.simbolo_apagado{
+    width: 70%;
+    opacity: 0.15;
+}
+
+.personajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 2.8vh;
+}
+
+.personajes>div{
+    border-radius: 30px;
+    margin: 1% 0;
+    width: 90%;
+    height: 67vh;
+    background-size: cover;
+    background-position: center top;
+}
+
+.negro_izquierda{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgb(37, 37, 37)20%,rgba(37, 37, 37, 0.116)80%);
+    opacity: 1;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.negro_derecha{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,rgb(37, 37, 37)20%,rgba(37, 37, 37, 0.116)80%);
+    opacity: 1;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.negro_abajo{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgb(37, 37, 37, 0)20%,rgba(37, 37, 37)80%);
+    opacity: 1;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heliod{
+    background-image: url("./Images/Theros/Theros_Heliod.png");  
+}
+
+#thassa{
+    background-image: url("./Images/Theros/Theros_Thassa.jpg");
+}
+
+#erebos{
+    background-image: url("./Images/Theros/Theros_Erebos.png");
+}
+
+#purphoros{
+    background-image: url("./Images/Theros/Theros_Purphoros.png");
+}
+
+#nylea{
+    background-image: url("./Images/Theros/Theros_Nylea.jpg");
+}
+
+#elesh_norn{
+    background-image: url("./Images/Phyrexia/Phyrexia_Elesh.jpg");
+}
+
+#jin_gitaxias{
+    background-image: url("./Images/Phyrexia/Phyrexia_Jin_Gitaxias.webp");
+}
+
+#sheoldred{
+    background-image: url("./Images/Phyrexia/Phyrexia_Sheoldred.webp");
+}
+
+#urabrask{
+    background-image: url("./Images/Phyrexia/Phyrexia_Urabrask.jpg");
+}
+
+#vorinclex{
+    background-image: url("./Images/Phyrexia/Phyrexia_Vorinclex.webp");
+}
+
+#ao{
+    background-image: url("./Images/Kamigawa/Kamigawa_Ao.jpg");
+}
+
+#kairi{
+    background-image: url("./Images/Kamigawa/Kamigawa_Kairi.jpg");
+}
+
+#junji{
+    background-image: url("./Images/Kamigawa/Kamigawa_Junji.webp");
+}
+
+#atsushi{
+    background-image: url("./Images/Kamigawa/Kamigawa_Atsushi.jpg");
+}
+
+#kura{
+    background-image: url("./Images/Kamigawa/Kamigawa_Kura.jpg");
+}
+
+#kenrith{
+    background-image: url("./Images/Eldraine/Kenrith.webp");
+}
+
+#gadwick{
+    background-image: url("./Images/Eldraine/Gadwick.webp");
+}
+
+#ayara{
+    background-image: url("./Images/Eldraine/Ayara.jpg");
+}
+
+#torbran{
+    background-image: url("./Images/Eldraine/Torbran.webp");
+}
+
+#yorvo{
+    background-image: url("./Images/Eldraine/Yorvo.webp");
+}
+
+#azorius{
+    background-image: url("./Images/Ravnica/Azorius.jpg");
+}
+
+#orzhov{
+    background-image: url("./Images/Ravnica/Orzhov.jpg");
+}
+
+#boros{
+    background-image: url("./Images/Ravnica/Boros.jpg");
+}
+
+#selesnya{
+    background-image: url("./Images/Ravnica/Selesnya.jpg");
+}
+
+#dimir{
+    background-image: url("./Images/Ravnica/Dimir.jpg");
+}
+
+#izzet{
+    background-image: url("./Images/Ravnica/Izzet.jpg");
+}
+
+#simic{
+    background-image: url("./Images/Ravnica/Simic.webp");
+}
+
+#rakdos{
+    background-image: url("./Images/Ravnica/Rakdos.jpg");
+}
+
+#golgari{
+    background-image: url("./Images/Ravnica/Golgari.jpg");
+}
+
+#gruul{
+    background-image: url("./Images/Ravnica/Gruul.jpg");
+}
+
+#pajaros{
+    background-image: url("./Images/Bloomburrow/Pajaros.jpg");
+}
+
+#murcielagos{
+    background-image: url("./Images/Bloomburrow/Murcielagos.jpg");
+}
+
+#ratones{
+    background-image: url("./Images/Bloomburrow/Ratones.jpg");
+}
+
+#conejos{
+    background-image: url("./Images/Bloomburrow/Conejos.jpg");
+}
+
+#ratas{
+    background-image: url("./Images/Bloomburrow/Ratas.jpg");
+}
+
+#nutrias{
+    background-image: url("./Images/Bloomburrow/Nutrias.jpg");
+}
+
+#ranas{
+    background-image: url("./Images/Bloomburrow/Ranas.webp");
+}
+
+#lagartos{
+    background-image: url("./Images/Bloomburrow/Lagartos.jpg");
+}
+
+#ardillas{
+    background-image: url("./Images/Bloomburrow/Ardillas.jpg");
+}
+
+#mapaches{
+    background-image: url("./Images/Bloomburrow/Mapaches.jpg");
+}
+
+#planos>div>a>article{
+    background-position: center top;
+    width: 100%;
+    height: 67vh;
+}
+
+#plano_kamigawa{
+    background: url("./Images/Kamigawa/Kamigawa_Wallpaper.webp");
+}
+
+#plano_bloomburrow{
+    background: url("./Images/Bloomburrow/Bloomburrow_Wallpaper2.jpg");
+}
+
+#plano_phyrexia{
+    background: url("./Images/Phyrexia/Phyrexia_Wallpaper3.png");
+}
+
+#plano_kaldheim{
+    background: url("./Images/Kaldheim/Kaldheim_Wallpaper.jpg");
+}
+
+#plano_zendikar{
+    background: url("./Images/Zendikar/Zendikar_Wallpaper.jpg");
+}
+
+#plano_ravnica{
+    background: url("./Images/Ravnica/Ravnica_Wallpaper.jpg");
+}
+
+#plano_ikoria{
+    background: url("./Images/Ikoria/Ikoria_Wallpaper.jpg");
+}
+
+#plano_eldraine{
+    background: url("./Images/Eldraine/Eldraine_Wallpaper.jpg");
+}
+
+
+
+
+
+/*#Presentacion{
+    font-size: 500%;
+    color: white;*/
+    /*background-color: rgb(63, 63, 63);
+    backdrop-filter:alpha(opacity=70);
+    -moz-opacity:.70;opacity:.70;
+}*/
