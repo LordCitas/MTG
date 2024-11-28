@@ -117,13 +117,6 @@ nav a{
     padding:2% 5%;
 }
 
-#planos article{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-}
-
 #planos>div{
     display: flex;
     flex-wrap: wrap;
@@ -176,7 +169,7 @@ nav a{
     justify-content: center;
 }
 
-.nombre_texto_izquierda *{
+.nombre_texto_izquierda>*{
     width: 45%;
     padding: 1% 1% 1% 5%;
 }
@@ -189,7 +182,7 @@ nav a{
     justify-content: center;
 }
 
-.nombre_texto_derecha *{
+.nombre_texto_derecha>*{
     width: 45%;
     padding: 1% 5% 1% 1%;
 }
@@ -212,6 +205,21 @@ nav a{
 .simbolo_apagado{
     width: 70%;
     opacity: 0.15;
+}
+
+.flavor_text>*{
+    font-family: "Cormorant SC", serif;
+    font-weight: 0;
+    font-style: normal;
+    font-size: 0.9em;
+    color: rgb(255, 122, 14);
+}
+
+.flavor_text>p{
+    font-size: 0.7em;
+    display: flex;
+    justify-content: end;
+    /*color: white;*/
 }
 
 .personajes{
