@@ -74,39 +74,39 @@ nav a{
 }
 
 #theros .portada{
-    background-image: url("./Images/Theros/Theros_WallpaperPrincipal.jpg");
+    background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
 }
 
 #bloomburrow .portada{
-    background-image: url("./Images/Bloomburrow/Bloomburrow_Wallpaper_Principal.webp");
+    background-image: url("./Images/Bloomburrow/Bloomburrow_Wallpaper.webp");
 }
 
 #ravnica .portada{
-    background-image: url("./Images/Ravnica/Ravnica_Wallpaper_Principal.jpg");
+    background-image: url("./Images/Ravnica/Ravnica_Wallpaper.jpg");
 }
 
 #eldraine .portada{
-    background-image: url("./Images/Eldraine/Eldraine_Wallpaper_Principal.jpg");
+    background-image: url("./Images/Eldraine/Eldraine_Wallpaper.jpg");
 }
 
 #kamigawa .portada{
-    background-image: url("./Images/Kamigawa/Kamigawa_Wallpaper_Principal1.webp");
+    background-image: url("./Images/Kamigawa/Kamigawa_Wallpaper.webp");
 }
 
 #phyrexia .portada{
-    background-image: url("./Images/Phyrexia/Phyrexia_Wallpaper_Principal.jpg");
+    background-image: url("./Images/Phyrexia/Phyrexia_Wallpaper.jpg");
 }
 
 #kaldheim .portada{
-    background-image: url("./Images/Kaldheim/Kaldheim_Wallpaper_Principal.webp");
+    background-image: url("./Images/Kaldheim/Kaldheim_Wallpaper.webp");
 }
 
 #capenna .portada{
-    background-image: url("./Images/Capenna/New_Capenna_Wallpaper_Principal.avif");
+    background-image: url("./Images/Capenna/New_Capenna_Wallpaper.avif");
 }
 
 #ikoria .portada{
-    background-image: url("./Images/Ikoria/Ikoria_Wallpaper_Principal.webp");
+    background-image: url("./Images/Ikoria/Ikoria_Wallpaper.webp");
 }
 
 .portada{
@@ -158,7 +158,7 @@ nav a{
 }
 
 #plano_theros{
-    background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
+    background-image: url("./Images/Theros/Theros_Card.jpg");
     background-position: center top;
     width: 100%;
     height: 67vh;
@@ -225,7 +225,7 @@ nav a{
 
 .simbolo_apagado{
     width: 65%;
-    opacity: 0.15;
+    opacity: 0.45;
 }
 
 .flavor_text>*{
@@ -456,7 +456,7 @@ nav a{
 }
 
 #illuna{
-    background-image: url("./Images/Ikoria/illuna.jpg.opdownload");
+    background-image: url("./Images/Ikoria/illuna.jpg");
 }
 
 #obscura{
@@ -492,7 +492,7 @@ nav a{
 }
 
 #humans{
-    background-image: url("./Images/Kaldheim/humans.jpg");
+    background-image: url("./Images/Kaldheim/humans.webp");
 }
 
 #zombies{
@@ -526,35 +526,35 @@ nav a{
 }
 
 #plano_kamigawa{
-    background: url("./Images/Kamigawa/Kamigawa_Wallpaper.webp");
+    background: url("./Images/Kamigawa/Kamigawa_Card.webp");
 }
 
 #plano_bloomburrow{
-    background: url("./Images/Bloomburrow/Bloomburrow_Wallpaper2.jpg");
+    background: url("./Images/Bloomburrow/Bloomburrow_Card.jpg");
 }
 
 #plano_phyrexia{
-    background: url("./Images/Phyrexia/Phyrexia_Wallpaper3.png");
+    background: url("./Images/Phyrexia/Phyrexia_Card.png");
 }
 
 #plano_kaldheim{
-    background: url("./Images/Kaldheim/Kaldheim_Wallpaper.jpg");
+    background: url("./Images/Kaldheim/Kaldheim_Card.webp");
 }
 
 #plano_capenna{
-    background: url("./Images/Capenna/New_Capenna_Wallpaper.webp");
+    background: url("./Images/Capenna/New_Capenna_Card.webp");
 }
 
 #plano_ravnica{
-    background: url("./Images/Ravnica/Ravnica_Wallpaper.jpg");
+    background: url("./Images/Ravnica/Ravnica_Card.jpg");
 }
 
 #plano_ikoria{
-    background: url("./Images/Ikoria/Ikoria_Wallpaper.jpg");
+    background: url("./Images/Ikoria/Ikoria_Card.jpg");
 }
 
 #plano_eldraine{
-    background: url("./Images/Eldraine/Eldraine_Wallpaper.jpg");
+    background: url("./Images/Eldraine/Eldraine_Card.jpg");
 }
 
 
