@@ -63,9 +63,9 @@ nav a{
 
 .naranja{
     color: white;
-    /*background-color: rgb(255, 122, 14, 30%);*/
     background: linear-gradient(to left,rgba(37, 37, 37, 0),rgb(255, 122, 14, 0.6));
     padding: 0 0 0 5%;
+    /*margin: 0 0 1% 0;*/
     font-weight: 1000;
 }
 
@@ -97,6 +97,18 @@ nav a{
     background-image: url("./Images/Phyrexia/Phyrexia_Wallpaper_Principal.jpg");
 }
 
+#kaldheim .portada{
+    background-image: url("./Images/Kaldheim/Kaldheim_Wallpaper_Principal.webp");
+}
+
+#capenna .portada{
+    background-image: url("./Images/Capenna/New_Capenna_Wallpaper_Principal.avif");
+}
+
+#ikoria .portada{
+    background-image: url("./Images/Ikoria/Ikoria_Wallpaper_Principal.webp");
+}
+
 .portada{
     background-size: cover;
     background-position: center center;
@@ -124,12 +136,7 @@ nav a{
 }
 
 #planos article{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-content: center;
-    border-radius: 30px;
-    margin: 1% 0 0 0;
+    border-radius: 30px;/*30*/
 }
 
 .logo_expansion{
@@ -433,7 +440,83 @@ nav a{
 }
 
 #vadrok{
-    background-image: url("./Images/Ikoria/Vadrok.webp");
+    background-image: url("./Images/Ikoria/vadrok.webp");
+}
+
+#snapdax{
+    background-image: url("./Images/Ikoria/snapdax.png");
+}
+
+#nethroi{
+    background-image: url("./Images/Ikoria/nethroi.webp");
+}
+
+#brokkos{
+    background-image: url("./Images/Ikoria/brokkos.webp");
+}
+
+#illuna{
+    background-image: url("./Images/Ikoria/illuna.jpg.opdownload");
+}
+
+#obscura{
+    background-image: url("./Images/Capenna/obscura.jpg");
+}
+
+#brokers{
+    background-image: url("./Images/Capenna/brokers.jpg");
+}
+
+#cabaretti{
+    background-image: url("./Images/Capenna/cabaretti.jpg");
+}
+
+#maestros{
+    background-image: url("./Images/Capenna/maestros.webp");
+}
+
+#riveteers{
+    background-image: url("./Images/Capenna/riveteers.jpg");
+}
+
+#spirits{
+    background-image: url("./Images/Kaldheim/spirits.webp");
+}
+
+#angels{
+    background-image: url("./Images/Kaldheim/angels.jpg");
+}
+
+#dwarves{
+    background-image: url("./Images/Kaldheim/dwarves.jpg");
+}
+
+#humans{
+    background-image: url("./Images/Kaldheim/humans.jpg");
+}
+
+#zombies{
+    background-image: url("./Images/Kaldheim/zombies.webp");
+}
+
+#giants{
+    background-image: url("./Images/Kaldheim/giants.webp");
+}
+
+#shapeshifters{
+    background-image: url("./Images/Kaldheim/shapeshifters.jpg");
+}
+
+#demons{
+    background-image: url("./Images/Kaldheim/demons.webp");
+}
+
+#elves{
+    background-image: url("./Images/Kaldheim/elves.webp");
+}
+
+#trolls{
+    background-image: url("./Images/Kaldheim/trolls.webp");
 }
 
 #planos>div>a>article{
@@ -458,8 +541,8 @@ nav a{
     background: url("./Images/Kaldheim/Kaldheim_Wallpaper.jpg");
 }
 
-#plano_zendikar{
-    background: url("./Images/Zendikar/Zendikar_Wallpaper.jpg");
+#plano_capenna{
+    background: url("./Images/Capenna/New_Capenna_Wallpaper.webp");
 }
 
 #plano_ravnica{
