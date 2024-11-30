@@ -14,7 +14,7 @@ main{
     /*background-image: url("./Images/Kamigawa/Kamigawa_Vertical_Wallpaper.webp");*/
 }
 
-.fuente {
+.fuente{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -24,6 +24,24 @@ main{
 img{
     max-width: 100%;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(37, 37, 37);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 122, 14, 0.587);
+    border-radius: 50px;
+    transition: transform .3s;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 122, 14);
+  }
 
 header{
     position: sticky;
@@ -124,6 +142,36 @@ nav a{
     width: 40vw;
 }
 
+.siguiente{
+    position: sticky;
+    top: 50%;
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 4em;
+    z-index: 99;
+}
+
+.siguiente a{
+    padding: 1.5% 0.9%;
+    background-color: #c4681e;
+    border-radius: 10px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: white;
+}
+
+.siguiente a:hover{
+    background-color: rgba(255, 122, 14);
+    border-radius: 10px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
+}
+
 #planos{
     padding:2% 5%;
 }
@@ -137,12 +185,12 @@ nav a{
 #planos article{
     border-radius: 30px;/*30*/
     box-shadow: 0px 20px 20px 0px rgb(22, 22, 22);
-    transition: transform .2s;
+    transition: transform .3s;
 }
 
 #planos article:hover{
     transform: scale(1.05);
-    box-shadow: 0px 20px 20px 0px rgb(22, 22, 22);
+    box-shadow: 0 10px 40px 0px white;
 }
 
 .logo_expansion{
@@ -171,7 +219,7 @@ nav a{
 
 #planos>div>a{
     width: 30%;
-    padding: 1% 0;
+    padding: 2% 0;
 }
 
 #planos article>div{
@@ -199,6 +247,28 @@ nav a{
     width: 45%;
     padding: 1% 1% 1% 5%;
 }
+
+/*aqui empieza la prueba
+.nombre_texto_izquierda>h2, .nombre_texto_izquierda>div{
+    width: 45%;
+    padding: 1% 0 1% 5%;
+}
+
+.nombre_texto_izquierda>p{
+    width: 45%;
+    padding: 1% 0 0 5%;
+}
+
+.nombre_texto_derecha>h2, .nombre_texto_derecha>div{
+    width: 45%;
+    padding: 1% 5% 1% 2%;
+}
+
+.nombre_texto_derecha>p{
+    width: 45%;
+    padding: 1% 5% 0 5%;
+}
+aqui acaba la prueba*/
 
 .nombre_texto_derecha{
     width: 100%;
@@ -229,7 +299,7 @@ nav a{
 }
 
 .simbolo_apagado{
-    width: 65%;
+    width: 70%;
     opacity: 0.30;
 }
 
@@ -253,15 +323,22 @@ nav a{
     align-items: center;
     color: white;
     font-size: 2.8vh;
+    
 }
 
 .personajes>div{
     border-radius: 30px;
     margin: 1% 0;
     width: 90%;
-    height: 67vh;
+    height: 80vh;
     background-size: cover;
     background-position: center top;
+    transition: transform .3s;
+}
+
+.personajes>div:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
 }
 
 .negro_izquierda{
