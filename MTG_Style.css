@@ -10,9 +10,8 @@
     color: white;
 }
 
-main{
+main, footer{
     background-color: rgb(63, 63, 63);
-    /*background-image: url("./Images/Kamigawa/Kamigawa_Vertical_Wallpaper.webp");*/
 }
 
 .fuente{
@@ -28,31 +27,31 @@ img{
 
 ::-webkit-scrollbar {
     width: 15px;
-  }
+}
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: rgba(37, 37, 37);
-  }
+}
   
-  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 122, 14, 0.587);
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 122, 14, 0.751);
     border-radius: 50px;
     transition: transform .3s;
-  }
+}
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: rgb(255, 122, 14);
-  }
+}
 
 header{
     position: sticky;
     top: 0;
-    height: 5vh;
+    height: 7vh;
     background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.7% 4% 0.5% 4%;
+    padding: 0 4%;
     z-index: 99;
 }
 
@@ -78,12 +77,22 @@ nav ul{
 nav a{
     text-decoration: none;
     color: rgb(255, 122, 14);
+    height: 100%;
 }
 
 .naranja{
     color: white;
     background: linear-gradient(to left,rgba(37, 37, 37, 0),rgb(255, 122, 14, 0.6));
+    font-weight: 1000;
+    font-size: 3.5rem;
+}
+
+.personajes .negro_izquierda .naranja{
     padding: 0 0 0 5%;
+}
+
+h1, h2{
+    padding: 0 1%;
     font-weight: 1000;
 }
 
@@ -127,12 +136,15 @@ nav a{
     background-image: url("./Images/Ikoria/Ikoria_Wallpaper.webp");
 }
 
+#white .portada{
+    background-image: url("./Images/White/White_Wallpaper.jpg");
+}
+
 .portada{
     background-size: cover;
     background-position: center center;
     height: 93.2vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -144,26 +156,21 @@ nav a{
 }
 
 .siguiente{
-    position: sticky;
-    top: 50%;
-    padding: 1% 1%;
-    display: flex;
-    justify-content: space-between;
+    position: fixed;
+    top: 460px;
+    right: 19px;
     color: white;
-    font-size: 4em;
+    font-size: 1.5em;
     z-index: 99;
-}
-
-.siguiente a{
+    text-decoration: none;
     padding: 1.5% 0.9%;
     background-color: #c4681e;
     border-radius: 10px;
     font-weight: 1000;
-    text-decoration: none;
-    color: white;
+    box-shadow: 0px 0px 20px 0px rgb(22, 22, 22);
 }
 
-.siguiente a:hover{
+.siguiente:hover{
     background-color: rgba(255, 122, 14);
     border-radius: 10px;
     font-weight: 1000;
@@ -173,18 +180,72 @@ nav a{
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
 }
 
-#planos{
-    padding:2% 5%;
+.anterior{
+    position: fixed;
+    top: 460px;
+    left: 19px;
+    color: white;
+    font-size: 1.5em;
+    z-index: 99;
+    text-decoration: none;
+    padding: 1.5% 0.9%;
+    background-color: #c4681e;
+    border-radius: 10px;
+    font-weight: 1000;
+    box-shadow: 0px 0px 20px 0px rgb(22, 22, 22);
 }
 
-#planos>div{
+.anterior:hover{
+    background-color: rgba(255, 122, 14);
+    border-radius: 10px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
+}
+
+.descripcion, footer{
+    background-color: rgba(255, 122, 14, 0.482);
+    padding: 1.5% 5% 3.5% 5%;
+    font-size: 2em;
+}
+
+.descripcion>*, footer>*{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.descripcion>*::after, .footer>*::after{/*la primera barra se pone debajo de los botones y el color no es el */
+    content: '';
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+
+.descripcion>div>p{
+    width: 31%;
+    padding: 2.5% 0 0 0;
+}
+
+#planos{
+    padding: 2% 4%;
+}
+
+#tarjetas_planos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 1%;
 }
 
 #planos article{
-    border-radius: 30px;/*30*/
+    border-radius: 30px;
     box-shadow: 0px 20px 20px 0px rgb(22, 22, 22);
     transition: transform .3s;
 }
@@ -209,6 +270,11 @@ nav a{
     justify-content: end;
     align-content: center;
     margin: 1% 0 0 0;
+    transition: transform .3s;
+}
+
+.negro_abajo:hover{
+    background: linear-gradient(to bottom,rgb(37, 37, 37, 0)50%,rgb(30, 30, 30)77%);
 }
 
 #plano_theros{
@@ -233,7 +299,8 @@ nav a{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 1% 0;
+    align-items: center;
+    padding: 1% 1%;
 }
 
 .nombre_texto_izquierda{
@@ -324,6 +391,7 @@ aqui acaba la prueba*/
     align-items: center;
     color: white;
     font-size: 2.8vh;
+    padding: 2% 0;
 }
 
 .personajes>div{
@@ -338,7 +406,7 @@ aqui acaba la prueba*/
 }
 
 .personajes>div:hover{
-    transform: scale(1.03);
+    transform: scale(1.01);
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
 }
 
@@ -639,15 +707,3 @@ aqui acaba la prueba*/
 #plano_eldraine{
     background: url("./Images/Eldraine/Eldraine_Card.jpg");
 }
-
-
-
-
-
-/*#Presentacion{
-    font-size: 500%;
-    color: white;*/
-    /*background-color: rgb(63, 63, 63);
-    backdrop-filter:alpha(opacity=70);
-    -moz-opacity:.70;opacity:.70;
-}*/
