@@ -64,17 +64,21 @@ nav ul{
     align-items: center;
 }
 
-.volver_inicio{
+.volver_inicio>img{
     max-height: 5vh;
 }
 
-nav a{
+nav a:not(.volver_inicio){
     text-decoration: none;
     color: rgb(255, 122, 14);
     height: 100%;
-    background-color: rgb(25, 25, 25);
     padding: 0 20%;
-    border-radius: 15px;
+    transition: transform .5s;
+}
+
+nav a:not(.volver_inicio):hover{
+    color: white;
+    background-color: rgb(156, 92, 40);
 }
 
 .naranja{
@@ -96,13 +100,6 @@ h1, h2{
 #inicio .portada{
     background-image: url("./Images/Theros/Theros_Constellations.jpg");
 }
-
-/*#inicio main{
-    background-image: url(./Images/Theros/Theros_Constellations.jpg);
-    background-attachment: fixed;
-    background-position: center center;
-
-}*/
 
 #theros .portada{
     background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
@@ -176,6 +173,13 @@ h1, h2{
     background-position: center top;
 }
 
+#colorless main{
+    background-image: url("./Images/Colorless/Wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
 .portada{
     background-size: cover;
     background-position: center center;
@@ -239,9 +243,15 @@ h1, h2{
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
 }
 
-.descripcion, footer{
+.descripcion{
     background-color: rgb(156, 92, 40);
     padding: 1.5% 5% 3.5% 5%;
+    font-size: 2em;
+}
+
+footer{
+    background-color: rgb(156, 92, 40);
+    padding: 1.5%;
     font-size: 2em;
 }
 
@@ -251,16 +261,6 @@ h1, h2{
     position: relative;
     width: 100%;
 }
-
-/*.descripcion>*::after, .footer>*::after{
-    content: '';
-    background-color: white;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -30px;
-}*/
 
 .descripcion>*::after, .footer>*::after{
     content: '';
@@ -368,28 +368,6 @@ h1, h2{
     width: 45%;
     padding: 1% 1% 1% 5%;
 }
-
-/*aqui empieza la prueba
-.nombre_texto_izquierda>h2, .nombre_texto_izquierda>div{
-    width: 45%;
-    padding: 1% 0 1% 5%;
-}
-
-.nombre_texto_izquierda>p{
-    width: 45%;
-    padding: 1% 0 0 5%;
-}
-
-.nombre_texto_derecha>h2, .nombre_texto_derecha>div{
-    width: 45%;
-    padding: 1% 5% 1% 2%;
-}
-
-.nombre_texto_derecha>p{
-    width: 45%;
-    padding: 1% 5% 0 5%;
-}
-aqui acaba la prueba*/
 
 .nombre_texto_derecha{
     width: 100%;
