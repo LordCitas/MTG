@@ -8,10 +8,6 @@
     color: white;
 }
 
-main, footer{
-    background-color: rgb(63, 63, 63);
-}
-
 .fuente{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -145,30 +141,39 @@ h1, h2{
     background-image: url("./Images/Ikoria/Ikoria_Wallpaper.webp");
 }
 
-#white .portada{
+#white main{
     background-image: url("./Images/White/Wallpaper.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
 }
 
-#blue .portada{
+#blue main{
     background-image: url("./Images/Blue/Wallpaper.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
 }
 
-#black .portada{
+#black main{
     background-image: url("./Images/Black/Wallpaper.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
 }
 
-#red .portada{
+#red main{
     background-image: url("./Images/Red/Wallpaper.jpg");
-    background-position: top center;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
 }
 
-#green .portada{
+#green main{
     background-image: url("./Images/Green/Wallpaper.webp");
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
 }
 
 .portada{
@@ -178,8 +183,6 @@ h1, h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 300%;
 }
 
 .logo{
@@ -237,7 +240,7 @@ h1, h2{
 }
 
 .descripcion, footer{
-    background-color: rgba(255, 122, 14, 0.482);
+    background-color: rgb(156, 92, 40);
     padding: 1.5% 5% 3.5% 5%;
     font-size: 2em;
 }
@@ -276,6 +279,7 @@ h1, h2{
 
 #planos{
     padding: 2% 4%;
+    background-color: rgb(63, 63, 63);
 }
 
 #tarjetas_planos{
@@ -335,8 +339,16 @@ h1, h2{
     padding: 0 0 2% 0;
 }
 
-.encabezado_logo_expansion{
+.encabezado_planos{
     background-color: rgba(37, 37, 37, 0.479);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1%;
+}
+
+.encabezado_colores{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -352,7 +364,7 @@ h1, h2{
     justify-content: center;
 }
 
-.nombre_texto_izquierda>*{
+.personajes .nombre_texto_izquierda>*{
     width: 45%;
     padding: 1% 1% 1% 5%;
 }
@@ -387,7 +399,7 @@ aqui acaba la prueba*/
     justify-content: center;
 }
 
-.nombre_texto_derecha>*{
+.personajes .nombre_texto_derecha>*{
     width: 45%;
     padding: 1% 5% 1% 1%;
 }
@@ -433,6 +445,7 @@ aqui acaba la prueba*/
     color: white;
     font-size: 2.8vh;
     padding: 2% 0;
+    background-color: rgb(63, 63, 63);
 }
 
 .personajes>div{
@@ -751,4 +764,60 @@ aqui acaba la prueba*/
 
 .redondeo{
     border-radius: 45px;
+}
+
+.portada .simbolo{
+    max-height: 400px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 50px 0px rgb(22, 22, 22);
+}
+
+.puntos_fuertes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+}
+
+.puntos_fuertes>div{
+    height: 50vh;
+    width: 80%;
+    font-size: 1.6rem;
+    padding: 3% 0;
+}
+
+.carta{
+    margin: 0 5% 0 5%;
+    position: relative;
+    bottom: 55px;
+}
+
+.carta>img{
+    max-height: 1000px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 0px rgb(22, 22, 22);
+    transition: transform .3s;
+}
+
+.carta>img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.614);
+}
+
+.puntos_fuertes .nombre_texto_izquierda>*{
+    width: 95%;
+    padding: 1% 1% 1% 5%;
+}
+
+.puntos_fuertes .negro_derecha{
+    background: linear-gradient(to left,rgb(37, 37, 37)20%,rgba(37, 37, 37, 0.603)80%);
+}
+
+.puntos_fuertes .negro_izquierda{
+    background: linear-gradient(to right,rgb(37, 37, 37)20%,rgba(37, 37, 37, 0.603)80%);
+}
+
+.puntos_fuertes .nombre_texto_derecha>*{
+    width: 95%;
+    padding: 1% 5% 1% 1%;
 }
