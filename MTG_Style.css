@@ -97,9 +97,9 @@ h1, h2{
     font-weight: 1000;
 }
 
-#inicio .portada{
+/*#inicio .portada{
     background-image: url("./Images/Theros/Theros_Constellations.jpg");
-}
+}*/
 
 #theros .portada{
     background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
@@ -136,6 +136,13 @@ h1, h2{
 
 #ikoria .portada{
     background-image: url("./Images/Ikoria/Ikoria_Wallpaper.webp");
+}
+
+#inicio main{
+    background-image: url("./Images/Theros/Theros_Constellations.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 
 #white main{
@@ -279,7 +286,6 @@ footer{
 
 #planos{
     padding: 2% 4%;
-    background-color: rgb(63, 63, 63);
 }
 
 #tarjetas_planos{
