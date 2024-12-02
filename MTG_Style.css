@@ -146,24 +146,29 @@ h1, h2{
 }
 
 #white .portada{
-    background-image: url("./Images/White/White_Wallpaper.jpg");
+    background-image: url("./Images/White/Wallpaper.jpg");
     background-attachment: fixed;
 }
 
 #blue .portada{
-    background-image: url("./Images/Blue/Blue_Wallpaper.jpg");
+    background-image: url("./Images/Blue/Wallpaper.jpg");
+    background-attachment: fixed;
 }
 
 #black .portada{
-    background-image: url("./Images/Black/Black_Wallpaper.jpg");
+    background-image: url("./Images/Black/Wallpaper.jpg");
+    background-attachment: fixed;
 }
 
 #red .portada{
-    background-image: url("./Images/Red/Red_Wallpaper.jpg");
+    background-image: url("./Images/Red/Wallpaper.jpg");
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 #green .portada{
-    background-image: url("./Images/Green/Green_Wallpaper.jpg");
+    background-image: url("./Images/Green/Wallpaper.webp");
+    background-attachment: fixed;
 }
 
 .portada{
@@ -244,7 +249,17 @@ h1, h2{
     width: 100%;
 }
 
-.descripcion>*::after, .footer>*::after{/*la primera barra se pone debajo de los botones y el color no es el */
+/*.descripcion>*::after, .footer>*::after{
+    content: '';
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}*/
+
+.descripcion>*::after, .footer>*::after{
     content: '';
     background-color: white;
     height: 2px;
@@ -732,4 +747,8 @@ aqui acaba la prueba*/
 
 #plano_eldraine{
     background: url("./Images/Eldraine/Eldraine_Card.jpg");
+}
+
+.redondeo{
+    border-radius: 45px;
 }
