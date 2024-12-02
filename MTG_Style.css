@@ -1,5 +1,3 @@
-/*https://fonts.google.com/selection/embed*/
-
 *{
     margin : 0;
     padding : 0;
@@ -67,7 +65,7 @@ nav ul{
     font-size: 2.2vw;
     display: flex;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
 }
 
 .volver_inicio{
@@ -78,6 +76,9 @@ nav a{
     text-decoration: none;
     color: rgb(255, 122, 14);
     height: 100%;
+    background-color: rgb(25, 25, 25);
+    padding: 0 20%;
+    border-radius: 15px;
 }
 
 .naranja{
@@ -100,9 +101,17 @@ h1, h2{
     background-image: url("./Images/Theros/Theros_Constellations.jpg");
 }
 
+/*#inicio main{
+    background-image: url(./Images/Theros/Theros_Constellations.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+
+}*/
+
 #theros .portada{
     background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
 }
+
 
 #bloomburrow .portada{
     background-image: url("./Images/Bloomburrow/Bloomburrow_Wallpaper.webp");
@@ -138,6 +147,23 @@ h1, h2{
 
 #white .portada{
     background-image: url("./Images/White/White_Wallpaper.jpg");
+    background-attachment: fixed;
+}
+
+#blue .portada{
+    background-image: url("./Images/Blue/Blue_Wallpaper.jpg");
+}
+
+#black .portada{
+    background-image: url("./Images/Black/Black_Wallpaper.jpg");
+}
+
+#red .portada{
+    background-image: url("./Images/Red/Red_Wallpaper.jpg");
+}
+
+#green .portada{
+    background-image: url("./Images/Green/Green_Wallpaper.jpg");
 }
 
 .portada{
