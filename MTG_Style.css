@@ -97,10 +97,6 @@ h1, h2{
     font-weight: 1000;
 }
 
-/*#inicio .portada{
-    background-image: url("./Images/Theros/Theros_Constellations.jpg");
-}*/
-
 #theros .portada{
     background-image: url("./Images/Theros/Theros_Wallpaper.jpg");
 }
