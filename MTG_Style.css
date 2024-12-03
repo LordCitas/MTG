@@ -397,6 +397,8 @@ footer{
 
 .simbolo_encendido{
     width: 100%;
+    box-shadow: 0 0 30px 0px rgba(255, 255, 255, 0.863);
+    border-radius: 100%;
 }
 
 .simbolo_apagado{
